@@ -75,7 +75,7 @@
               <h4>剩餘數量:</h4>
             </div>
             <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-              <h4>23</h4>
+              <h4>3</h4>
             </div>
             <div class="container">
               <div class="row">
@@ -95,7 +95,7 @@
               <h4>剩餘數量:</h4>
             </div>
             <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-              <h4>17</h4>
+              <h4>7</h4>
             </div>
             <div class="container">
               <div class="row">
@@ -115,7 +115,7 @@
               <h4>剩餘數量:</h4>
             </div>
             <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-              <h4>20</h4>
+              <h4>2</h4>
             </div>
             <div class="container">
               <div class="row">
@@ -135,7 +135,7 @@
               <h4>剩餘數量:</h4>
             </div>
             <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-              <h4>12</h4>
+              <h4>9</h4>
             </div>
             <div class="container">
               <div class="row">
@@ -155,7 +155,7 @@
               <h4>剩餘數量:</h4>
             </div>
             <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-              <h4>25</h4>
+              <h4>5</h4>
             </div>
             <div class="container">
               <div class="row">
