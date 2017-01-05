@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/companystorageCss.css">
+  <link rel="stylesheet" href="css/companystorage.css">
   <title>Companystorage</title>
   <style>
   body{
