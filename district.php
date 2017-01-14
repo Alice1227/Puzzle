@@ -66,9 +66,9 @@
         ?>
       <script>
       function updatestorage(){
-        var a = parseInt(document.getElementById("north").value);
-        var b = parseInt(document.getElementById("mid").value);
-        var c = parseInt(document.getElementById("south").value);
+        var a = parseFloat(document.getElementById("north").value);
+        var b = parseFloat(document.getElementById("mid").value);
+        var c = parseFloat(document.getElementById("south").value);
         if(a+b+c!=1){
         window.alert("您輸入的權重總和不等於1，請重新輸入。");
         }
