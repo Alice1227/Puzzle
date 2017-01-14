@@ -50,13 +50,11 @@
   						<input type="float" id="south" name="south" value="" class="form-control" placeholder="請輸入配貨權重">
   					</div>
   					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-  						<button type="submit" class="btn btn-default">提交</button>
+  						<button type="submit" onclick="updatestorage();" class="btn btn-default">提交</button>
   					</div>
   				</div>
         </form>
 			</div>
-
-
     <br><br>
     <?php
     require "db.php";
@@ -65,12 +63,17 @@
     $result = mysql_query($sql) ;
 
     while ($row = mysql_fetch_array($result)) {
-        if ($_POST["north"]+$_POST["mid"]+$_POST["south"]!=1) {
-            ?>
-        <script>window.alert("您輸入的權重總和不等於1，請重新輸入。")</script>
-        <?php
-        break;
-        } ?>
+        ?>
+      <script>
+      function updatestorage(){
+        var a = parseInt(document.getElementById("north").value);
+        var b = parseInt(document.getElementById("mid").value);
+        var c = parseInt(document.getElementById("south").value);
+        if(a+b+c!=1){
+        window.alert("您輸入的權重總和不等於1，請重新輸入。");
+        }
+      }
+      </script>
       <div class="row">
         <div class="storage">
             <div class="col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-xs-2 col-sm-2 col-md-2 col-lg-2">
@@ -150,7 +153,9 @@
         <?php
 
         }
-        echo "<br>";
+        echo "<br>"; ?>
+              <?php
+
     }
     ?>
       <div class="row click">
